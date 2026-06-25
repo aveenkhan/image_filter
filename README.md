@@ -70,6 +70,3 @@ Or run the engine directly without the GUI:
 - **Inter-process communication**: GUI and engine are separate processes, communicating over a stdout pipe with a simple line-based protocol
 - **Producer/consumer pattern**: a background Python thread reads engine output and hands it to the GUI's main thread via a `queue.Queue`, keeping the UI responsive
 
-## License
-
-MIT (or your preferred license — update before publishing)
