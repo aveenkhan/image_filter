@@ -1,10 +1,6 @@
 # Multithreaded Image Filter
 
 A multithreaded image filtering engine written in C++ (POSIX threads), controlled by a Python Tkinter GUI. Built as an OS systems project to demonstrate thread creation, data-parallel work partitioning, and mutex-protected shared state.
-
-> **Short description (for repo "About"):**
-> Multithreaded C++/pthreads image filter engine with a Python Tkinter GUI front-end. Demonstrates POSIX thread management, data parallelism, and mutex synchronization.
-
 ---
 
 ## Overview
@@ -56,11 +52,6 @@ cd gui
 python3 gui.py
 ```
 
-Or run the engine directly without the GUI:
-
-```bash
-./src/filter_engine input.ppm output.ppm blur 4
-```
 
 ## OS concepts demonstrated
 
